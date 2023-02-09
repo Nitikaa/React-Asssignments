@@ -1,0 +1,43 @@
+● What is Emmet?
+--> Emmet is a plugin used by web-developer for HTML/CSS workflows.Idea of abbrevations took from CSS selectors.
+the abbreviations are converted into HTML/CSS transformed into structured code block at runtime. 
+
+
+● Difference between a Library and Framework?
+--> Framework is a full flegded packages. It provides the flow of the application to the developer.
+Developer needs to write code as per instruction given by framework
+
+E.g - VueJs, Angular, nodeJs
+
+Library - independent code of unit, requested by developers.It took minumum efforts to put into our code.
+the control remains with developers, who decides when to call library.
+E.g - ReactJS,Jquery etc
+
+● What is CDN? Why do we use it?
+
+-> these are serveres distubuted globally, to provide fastest delivery of the JS, Images (Internet contents). It provides quick transfer to assests
+needed for loading an application on Internet (HTML,JS,CSS,images, videos) etc.
+
+● Why is React known as React?
+
+-> Its ability to react on state changes/update. Emphasizes the reactivesness of state changes.
+
+● What is crossorigin in script tag?
+-> It provides support for CROS (Cross origin resource sharing) on script tag. It allows resources sharing between differnt origins and resets the 
+default behaviour of the browsers (same origin policy SOP)
+
+● What is diference between React and ReactDOM
+- React -> holds all the sources of components, state , props
+- ReactDOM -> it helps React on interacting with DOM 
+
+Why Seperate -New introduction of react Native which only works for mobile apps.
+ReactDOM works for web apps and React works for -mobile, web both
+
+● What is difference between react.development.js and react.production.js files via CDN?
+
+- react.development.js -> for the development purpose where we can debug our application easily.
+- react.production.js  -> minified and optimised package 
+
+● What is async and defer? - see my Youtube video ;)
+- async -> It will load the external scripts independently without blocking for the page to load.
+- defer -> the browser will load the script only after loading the page. useful in dependent scripts loading.
